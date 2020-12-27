@@ -1,0 +1,119 @@
+{
+  "main": {
+    "name":"Pandhiti Sreenivasulu",
+    "description":"I am a Sales & Recovery expert having 8 years of working on field. I did worked in famous cmpanies like Bajaj, LIC and many more.",
+    "image":"name.jpeg",
+    "bio":"Pandhiti Sreenivasulu Sales and Recovery expert from Nellore(Andhra Pradhesh) having 8 years of experience in working with Bajaj Finserv, SPI Cinemas pvt.ltd , ACT television pvt.ltd , IBL Consumer Finance and Moneyview. Now currently working as a Area Sales Officer (ASO) at Bharat Pe.",
+    "contactmessage":"For further details contact me here or simply drop any suggestions here.",
+    "email": "spandhiti@gmail.com",
+    "phone": "+91 8187033395",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"RC Puram Colony, Gangavarm",
+      "city":"Kovur (Nellore), ",
+      "state":"Andhra Pradhesh",
+      "zip": "524137"
+    },
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100008194999074",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/Sreeniv97069539",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/sreenivasulu-pandhiti-35985714b",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/srinivaspandhiti",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Skills that made me stand out",
+    "education":[
+      {
+        "school":"Rao's Degree College",
+        "degree":"Bachelor's in Computer Science",
+        "graduated":"April 2012",
+        "description":"Have learnt about computers and internet that created passion towards them. Have learnt basics of programming languages like C and Java ."
+      }
+    ],
+    "work":[
+      {
+        "company":"ACT television pvt.ltd",
+        "title":"Collection Officer ",
+        "years":"March 2012 - Nov 2013",
+        "description":"Worked as a Recovery and Collection agent, learnt about making interactions with clients and acheiving targets in time."
+      },
+      {
+        "company":"SPI Cinemas",
+        "title":"Store Supervisor",
+        "years":"Jan 2014 - May 2019",
+        "description":"Have learnt about managing logistics, reports, FIFO and more."
+      },
+      {
+        "company":"India Bulls Consumer Finance ltd & Moneyview",
+        "title":"Direct Selling Agent",
+        "years":"May 2019 - Mar 2020",
+        "description":"Learn to sell personals loans ."
+      },
+      {
+        "company":"Bajaj Finserv & Kissht",
+        "title":"Recovery Executive",
+        "years":"Apr 2020 - Nov 2020",
+        "description":" Have learnt about customer interactions and acheiving targeted goals."
+      },
+      {
+        "company":"Bharat Pe",
+        "title":"Area Sales Officer",
+        "years":"Dec 2020 - present",
+        "description":"Learn to sell murchant onboarding and service to merchant"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Recovery",
+        "level":"70%"
+      },
+      {
+        "name":"Sales",
+        "level":"68%"
+      },
+      {
+        "name":"Store handing",
+        "level":"80%"
+      },
+      {
+        "name":"Customer Interaction",
+        "level":"90%"
+      },
+      {
+        "name":"Marketing",
+        "level":"70%"
+      },
+      {
+        "name":"Microsoft Office",
+        "level":"90%"
+      },
+      {
+        "name":"Leadership",
+        "level":"85%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      
+    ]
+  }
+}
