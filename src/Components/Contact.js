@@ -1,8 +1,28 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  render() {
-
+   constructor(props){
+      super(props)
+      this.state = {
+         contactName: "",
+         contactEmail: "",
+         contactSubject: "",
+         contactMessage: ""
+      }
+   }
+   doSomething = (e) => {
+      window.open(`mailto:${this.props.email}?subject=${this.state.contactSubject}&body=Name:${this.state.contactName}<br />Email:${this.state.contactEmail}<br />${this.state.contactMessage}`,'new_window');
+      e.preventDefault()
+   }
+   handleChange = (e) => {
+      const target = e.target
+      const name = target.id
+      const value = target.value
+      this.setState({
+         [name] : value
+      })
+   }
+   render() {
     if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
@@ -36,7 +56,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={this.doSomething}>
 					<fieldset>
 
                   <div>
@@ -56,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>
@@ -83,31 +103,9 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span>{phone}</span> 
 					   </p>
 				   </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-		         </div>
             </aside>
       </div>
    </section>

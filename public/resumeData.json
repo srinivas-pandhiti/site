@@ -1,143 +1,119 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "name":"Pandhiti Sreenivasulu",
+    "description":"I am a Sales & Recovery expert having 8 years of working on field. I did worked in famous cmpanies like Bajaj, LIC and many more.",
+    "image":"name.jpeg",
+    "bio":"Pandhiti Sreenivasulu Sales and Recovery expert from Nellore(Andhra Pradhesh) having 8 years of experience in working with Bajaj Finserv, SPI Cinemas pvt.ltd , ACT television pvt.ltd , IBL Consumer Finance and Moneyview. Now currently working as a Area Sales Officer (ASO) at Bharat Pe.",
+    "contactmessage":"For further details contact me here or simply drop any suggestions here.",
+    "email": "spandhiti@gmail.com",
+    "phone": "+91 8187033395",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"RC Puram Colony, Gangavarm",
+      "city":"Kovur (Nellore), ",
+      "state":"Andhra Pradhesh",
+      "zip": "524137"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/profile.php?id=100008194999074",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/Sreeniv97069539",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/sreenivasulu-pandhiti-35985714b",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/srinivaspandhiti",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Skills that made me stand out",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Rao's Degree College",
+        "degree":"Bachelor's in Computer Science",
+        "graduated":"April 2012",
+        "description":"Have learnt about computers and internet that created passion towards them. Have learnt basics of programming languages like C and Java ."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ACT television pvt.ltd",
+        "title":"Collection Officer ",
+        "years":"March 2012 - Nov 2013",
+        "description":"Worked as a Recovery and Collection agent, learnt about making interactions with clients and acheiving targets in time."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"SPI Cinemas",
+        "title":"Store Supervisor",
+        "years":"Jan 2014 - May 2019",
+        "description":"Have learnt about managing logistics, reports, FIFO and more."
+      },
+      {
+        "company":"India Bulls Consumer Finance ltd & Moneyview",
+        "title":"Direct Selling Agent",
+        "years":"May 2019 - Mar 2020",
+        "description":"Learn to sell personals loans ."
+      },
+      {
+        "company":"Bajaj Finserv & Kissht",
+        "title":"Recovery Executive",
+        "years":"Apr 2020 - Nov 2020",
+        "description":" Have learnt about customer interactions and acheiving targeted goals."
+      },
+      {
+        "company":"Bharat Pe",
+        "title":"Area Sales Officer",
+        "years":"Dec 2020 - present",
+        "description":"Learn to sell murchant onboarding and service to merchant"
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Recovery",
+        "level":"70%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"Sales",
+        "level":"68%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Store handing",
+        "level":"80%"
       },
       {
-        "name":"CSS",
+        "name":"Customer Interaction",
         "level":"90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name":"Marketing",
+        "level":"70%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name":"Microsoft Office",
+        "level":"90%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Leadership",
+        "level":"85%"
       }
     ]
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
+      
     ]
   }
 }
